@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffe Shops Tia Rosa</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/banner.css">
+        <link rel="stylesheet" href="assets/css/sobre.css">
+        <link rel="stylesheet" href="assets/css/cafes.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="assets/img/logo.jpg" alt="Logo Coffe Shops Tia Rosa" class="header__logo">
+            <nav class="nav__list">
+                <ul class="menu__ul">
+                    <li class="menu__link__lista"><a href="javascript:void(0);" onclick="scrollToClass('sobre')" class="ancora__menu">Quem somos</a></li>
+                    <li class="menu__link__lista"><a href="javascript:void(0);" onclick="scrollToClass('cafes')" class="ancora__menu">Produtos</a></li>
+                    <li class="menu__link__lista"><a href="javascript:void(0);" onclick="scrollToClass('footer')" class="ancora__menu">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <img src="assets/img/cafe.jpg" alt="" class="banner__imagem">
+            <h2 class="banner__titulo">Reaproveite melhor o melhor Café!</h2><br>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h2 class="sobre__titulo">Sobre nós</h2>
+            <h3 class="sobre__descricao">
+                Coffe Shops Tia Rosa é uma prestigiada cafeteria, um lugar acolheador e saboroso, onde você pode degustar do melhor e moído café.
+                Um espaço com internet e com um saboroso cheiro de cafeína, para você passar o seu tempo, realizar os seus trabalhos, e criar memôrias e momentos.
+                Venha passar esse delícioso tempo conosco e com cheiro de café.
+            </h3>
+        </section>
+
+        <section class="cafes" id="cafes">
+            <div class="cafe">
+                <img src="./assets/img/cafes/cafe-expresso.jpg" alt="Café Expresso" class="cafe__imagem">
+                <div class="cafe_conteudo">
+                    <h4 class="cafe__titulo">Café Expresso</h4>
+                    <p class="cafe__descricao">cafe clássico e forte, com um delicioso aroma. Moída na hora.</p>
+                </div>
+            </div>
+            <div class="cafe">
+                <img src="./assets/img/cafes/cafe-mocha.jpg" alt="Café Mocha" class="cafe__imagem">
+                <div class="cafe_conteudo">
+                    <h4 class="cafe__titulo">Café Mocha</h4>
+                    <p class="cafe__descricao"> Café Mocha é uma variação de café com leite. Inclusive, muitos o comparam bastante com o capuccino</p>
+                </div>
+            </div>
+            <div class="cafe">
+                <img src="./assets/img/cafes/cafe-cappucino.jpg" alt="Café Cappucino" class="cafe__imagem">
+                <div class="cafe_conteudo">
+                    <h4 class="cafe__titulo">Café Cappucino</h4>
+                    <p class="cafe__descricao">Cappuccino, do italiano, pronunciado: ou capuchino, geralmente pronunciado: em português, é uma bebida italiana preparada com café expresso e leite. </p>
+                </div>
+            </div>
+            <div class="cafe">
+                <img src="./assets/img/cafes/cafe-achocolatado.jpg" alt="Café Achocolatado" class="cafe__imagem">
+                <div class="cafe_conteudo">
+                    <h4 class="cafe__titulo">Café Achocolatado</h4>
+                    <p class="cafe__descricao">cafe refrescante e cheia de sabor, com o um toque de chócolate meio amargo, a combinação co café com o cacau</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer" id="footer">
+            <h1 class="contato__title">Contato</h1>
+            <h4>E-mail: tiarosacoffe@iesb.com</h4> 
+            <h4>Endereço: Rua Fictícia 21</h4> 
+            <h4>Telefone: (xx)xxxx-xxxx</h4>
+        </footer>
+
+        <script>
+            function scrollToClass(classeID) {
+                var classeElement = document.getElementById(classeID);
+                classeElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+    </body>
+</html>

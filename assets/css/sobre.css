@@ -1,0 +1,18 @@
+.sobre {
+    text-align: center;
+    color: var(--cafe);
+    font-family: var(--font-pacifico);
+    font-weight: 400;
+    padding: 2.5rem;
+}
+
+.sobre__titulo {
+    font-size: 3.1875rem;
+}
+
+.sobre__descricao{
+    font-family: var(--font-principal);
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding: 2.5rem;
+}

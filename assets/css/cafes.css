@@ -1,0 +1,89 @@
+.cafes {
+    background: var(--cafe);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+.cafe {
+    background: var(--cafe);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
+}
+
+.cafe__imagem {
+    height: auto;
+    width: auto;
+}
+
+.cafe__titulo {
+    font-size: 1.4375rem;
+}
+
+.cafe__descricao {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.cafe_conteudo {
+    padding: 1rem;
+}
+
+.cafe {
+    background: var(--branco);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 0) {
+    .cafe {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cafe {
+        margin-right: 2.5rem;
+        width: calc(33% - 2.5rem)
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cafe {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+}
+
+.cafes {
+    background: var(--cafes-bg);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (min-width: 0) {
+    .cafes {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cafes {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cafes {
+        padding: 5rem 0 0 5rem;
+    }
+}
